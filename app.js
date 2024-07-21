@@ -9,7 +9,7 @@ const app = express();
 dotenv.config({path: "./config/config.env"});
 
 app.use(cors({
-    origin: 'https://aayojan-event-planning.netlify.app/',
+    origin: 'https://aayojan-event-planning.netlify.app',
     methods: ["POST"],
     credentials: true
 }));
